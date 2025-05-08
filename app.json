@@ -4,7 +4,7 @@
     "keywords": ["express", "gogoanime", "scrapper", "api", "streaming"],
     "website": "https://github.com/senna-js/gogoanimeapi#readme",
     "repository": "https://github.com/senna-js/gogoanimeapi",
-    "logo": "/images/image1.png",
+    "logo": "images/image1.png",
 
     "env": {
         "PORT": {
