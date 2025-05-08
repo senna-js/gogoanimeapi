@@ -9,22 +9,22 @@ import { extractStreamSB } from './helpers/extractors/streamsb.js';
 import { extractFembed } from './helpers/extractors/fembed.js';
 import { USER_AGENT, renameKey } from './utils.js';
 
-const BASE_URL = 'https://gogoanime3.cc/';
-const BASE_URL2 = 'https://gogoanime.gg/';
+const BASE_URL = 'https://gogoanime.onl/';
+const BASE_URL2 = 'https://gogoanime3.cc/';
 const ajax_url = 'https://ajax.gogocdn.net/';
-const anime_info_url = 'https://gogoanime3.cc/category/';
+const anime_info_url = 'https://gogoanime.onl/category/';
 const anime_movies_path = '/anime-movies.html';
-const popular_path = '/popular.html';
-const new_season_path = '/new-season.html';
-const search_path = '/search.html';
-const popular_ongoing_url = `${ajax_url}ajax/page-recent-release-ongoing.html`;
+const popular_path = '/popular';
+const new_season_path = '/new-season';
+const search_path = '/search';
+const popular_ongoing_url = '/status/ongoing';
 const recent_release_url = `${ajax_url}ajax/page-recent-release.html`;
 const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
-const seasons_url = 'https://gogoanime3.cc/sub-category/';
+const seasons_url = 'https://gogoanime.onl/sub-category/';
 
-const Referer = 'https://gogoanime.gg/';
-const goload_stream_url = 'https://s3embtaku.pro/abpl1245?id=';
-export const DownloadReferer = 'https://s3embtaku.pro/download';
+const Referer = 'https://gogoanime.onl/';
+const goload_stream_url = 'https://s3taku.com';
+export const DownloadReferer = 'https://s3taku.com/download';
 
 const disqus_iframe = (episodeId) =>
  `https://disqus.com/embed/comments/?base=default&f=gogoanimetv&t_u=https%3A%2F%2Fgogoanime.vc%2F${episodeId}&s_o=default#version=cfefa856cbcd7efb87102e7242c9a829`;
@@ -409,7 +409,7 @@ export const scrapeAnimeDetails = async ({ id }) => {
   let genres = [];
   let epList = [];
 
-  const animePageTest = await axios.get(`https://gogoanime3.cc/category/${id}`);
+  const animePageTest = await axios.get(`https://gogoanime.onl/category/${id}`);
 
   const $ = cheerio.load(animePageTest.data);
 
