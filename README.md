@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 GOGOANIME API FORKED FROM @riimuru/gogoanime
 --
 Contribute Welcome
 =======
 <p align="center">
-  <a href="https://github.com/riimuru/gogoanime">
+  <a href="https://github.com/senna-js/gogoanimeapi">
     <img src="images/image1.png" alt="Logo" width="85" height="85">
   </a>
 
@@ -16,18 +15,18 @@ Contribute Welcome
     <a href="#routes"><strong>Explore the api »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/riimuru/gogoanime/issues/new?assignees=riimuru&labels=bug&template=bug-report.yml">Bug report</a>
+    <a href="https://github.com/senna-js/gogoanimeapi/issues/new?assignees=riimuru&labels=bug&template=bug-report.yml">Bug report</a>
     ·
-    <a href="https://github.com/riimuru/gogoanime/issues/new?assignees=riimuru&labels=enhancement&template=feature-request.md">Feature request</a>
+    <a href="https://github.com/senna-js/gogoanimeapi/issues/new?assignees=riimuru&labels=enhancement&template=feature-request.md">Feature request</a>
   </p>
   <p align="center">
-    <a href="https://github.com/riimuru/gogoanime/actions/workflows/docker-build.yml">
-      <img src="https://github.com/riimuru/gogoanime/actions/workflows/docker-build.yml/badge.svg" alt="stars">
+    <a href="https://github.com/senna-js/gogoanimeapi/actions/workflows/docker-build.yml">
+      <img src="https://github.com/senna-js/gogoanimeapi/actions/workflows/docker-build.yml/badge.svg" alt="stars">
     </a>
-     <a href="https://github.com/riimuru/gogoanime/actions/workflows/codeql-analysis.yml">
-      <img src="https://github.com/riimuru/gogoanime/actions/workflows/codeql-analysis.yml/badge.svg" alt="stars">
+     <a href="https://github.com/senna-js/gogoanimeapi/actions/workflows/codeql-analysis.yml">
+      <img src="https://github.com/senna-js/gogoanimeapi/actions/workflows/codeql-analysis.yml/badge.svg" alt="stars">
     </a>
-    <a href="https://github.com/riimuru/gogoanime">
+    <a href="https://github.com/senna-js/gogoanimeapi">
       <img src="https://img.shields.io/github/stars/riimuru/gogoanime" alt="stars">
     </a>
     <a href="https://discord.gg/qTPfvMxzNH">
@@ -76,7 +75,7 @@ Contribute Welcome
 Run the following command to clone the repository, and install the dependencies:
 
 ```sh
-git clone https://github.com/riimuru/gogoanime.git
+git clone https://github.com/senna-js/gogoanimeapi.git
 cd gogoanime
 npm install #or yarn install
 ```
@@ -104,12 +103,12 @@ You can add `-d` flag to run the server in detached mode.
 ### Heroku
 Host your own instance of the api on heroku using the button below.
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/riimuru/gogoanime/tree/main)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/senna-js/gogoanimeapi/tree/main)
 
 ### Render
 Host your own instance of the api on render using the button below.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/riimuru/gogoanime-api)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/senna-js/gogoanimeapi-api)
 
 ### Railway
 Host your own instance of the api on railway using the button below.
@@ -622,7 +621,7 @@ Output >>
 The `id`, `parent` and `depth` keys on the comments list can be used to determine the comment structure in your app.
 
 ## Contributing
-1. [Fork the repository](https://github.com/riimuru/gogoanime)
+1. [Fork the repository](https://github.com/senna-js/gogoanimeapi)
 2. Clone your fork to your local machine using the following command **(make sure to change `<your_username>` to your GitHub username)**:
 ```sh
 git clone https://github.com/<your-username>/gogoanime.git
