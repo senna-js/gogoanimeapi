@@ -23,7 +23,7 @@ const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
 const seasons_url = 'https://gogoanime.onl/sub-category/';
 
 const Referer = 'https://gogoanime.onl/';
-const goload_stream_url = 'https://s3taku.com';
+const goload_stream_url = 'https://s3taku.com/abpl1245?id=';
 export const DownloadReferer = 'https://s3taku.com/download';
 
 const disqus_iframe = (episodeId) =>
