@@ -9,10 +9,10 @@ import { extractStreamSB } from './helpers/extractors/streamsb.js';
 import { extractFembed } from './helpers/extractors/fembed.js';
 import { USER_AGENT, renameKey } from './utils.js';
 
-const BASE_URL = 'https://gogoanime.film/';
+const BASE_URL = 'https://gogoanime3.cc/';
 const BASE_URL2 = 'https://gogoanime.gg/';
 const ajax_url = 'https://ajax.gogocdn.net/';
-const anime_info_url = 'https://gogoanime.film/category/';
+const anime_info_url = 'https://gogoanime3.cc/category/';
 const anime_movies_path = '/anime-movies.html';
 const popular_path = '/popular.html';
 const new_season_path = '/new-season.html';
@@ -20,9 +20,9 @@ const search_path = '/search.html';
 const popular_ongoing_url = `${ajax_url}ajax/page-recent-release-ongoing.html`;
 const recent_release_url = `${ajax_url}ajax/page-recent-release.html`;
 const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
-const seasons_url = 'https://gogoanime.film/sub-category/';
+const seasons_url = 'https://gogoanime3.cc/sub-category/';
 
-const Referer = 'https://gogoplay.io/';
+const Referer = 'https://gogoanime.gg/';
 const goload_stream_url = 'https://goload.pro/streaming.php';
 export const DownloadReferer = 'https://goload.pro/';
 
@@ -409,7 +409,7 @@ export const scrapeAnimeDetails = async ({ id }) => {
   let genres = [];
   let epList = [];
 
-  const animePageTest = await axios.get(`https://gogoanime.gg/category/${id}`);
+  const animePageTest = await axios.get(`https://gogoanime3.cc/category/${id}`);
 
   const $ = cheerio.load(animePageTest.data);
 
