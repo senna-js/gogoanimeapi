@@ -23,8 +23,8 @@ const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
 const seasons_url = 'https://gogoanime3.cc/sub-category/';
 
 const Referer = 'https://gogoanime.gg/';
-const goload_stream_url = 'https://goload.pro/streaming.php';
-export const DownloadReferer = 'https://goload.pro/';
+const goload_stream_url = 'https://s3embtaku.pro/abpl1245?id=';
+export const DownloadReferer = 'https://s3embtaku.pro/download';
 
 const disqus_iframe = (episodeId) =>
  `https://disqus.com/embed/comments/?base=default&f=gogoanimetv&t_u=https%3A%2F%2Fgogoanime.vc%2F${episodeId}&s_o=default#version=cfefa856cbcd7efb87102e7242c9a829`;
