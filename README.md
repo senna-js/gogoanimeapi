@@ -1,2 +1,3 @@
-##GOGOANIME API FORKED FROM @riimuru/gogoanime
-Contribute welcome.
+GOGOANIME API FORKED FROM @riimuru/gogoanime
+--
+Contribute Welcome
